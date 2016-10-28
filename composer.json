@@ -1,0 +1,13 @@
+{
+    "name": "lingxi/dotty",
+    "keywords": ["laravel", "route", "parameters", "tracker."],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lingxi\\Dotty\\": "src/"
+        }
+    },
+    "require": {
+        "lingxi/context": "^0.0.1"
+    }
+}
