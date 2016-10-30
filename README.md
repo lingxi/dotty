@@ -12,4 +12,4 @@
     Lingxi\Dotty\DottyTracker::class,
 
     // publish config. or use default.
-    php artisan publish --Lingxi\Context\ContextServiceProvider
+    php artisan vendor:publish --provider="Lingxi\Context\ContextServiceProvider"
