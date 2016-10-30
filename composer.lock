@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c9b2e86548301b9cc426e362b85a3248",
-    "content-hash": "f76eed6020532c81bde5d54df57d77b2",
+    "hash": "e69add84b6cc46637501d4611182a842",
+    "content-hash": "050b4f45bb91cd158d3969fb72963659",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -17,7 +17,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/90b2128806bfde671b6952ab8bea493942c1fdae",
+                "url": "https://packagist.phpcomposer.com/files/doctrine/inflector/90b2128806bfde671b6952ab8bea493942c1fdae.zip",
                 "reference": "90b2128806bfde671b6952ab8bea493942c1fdae",
                 "shasum": ""
             },
@@ -84,7 +84,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/ce5d73c6015b2054d32f3f8530767847b358ae4e",
+                "url": "https://packagist.phpcomposer.com/files/illuminate/contracts/ce5d73c6015b2054d32f3f8530767847b358ae4e.zip",
                 "reference": "ce5d73c6015b2054d32f3f8530767847b358ae4e",
                 "shasum": ""
             },
@@ -126,7 +126,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/aa685c61c88a69b2e0e86310e65ef5ad2ebf2448",
+                "url": "https://packagist.phpcomposer.com/files/illuminate/support/aa685c61c88a69b2e0e86310e65ef5ad2ebf2448.zip",
                 "reference": "aa685c61c88a69b2e0e86310e65ef5ad2ebf2448",
                 "shasum": ""
             },
@@ -183,7 +183,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LingxiTeam/laravel-context/zipball/9d41a0ed413e69b92a414423119aafeb16e30912",
+                "url": "https://packagist.phpcomposer.com/files/LingxiTeam/laravel-context/9d41a0ed413e69b92a414423119aafeb16e30912.zip",
                 "reference": "9d41a0ed413e69b92a414423119aafeb16e30912",
                 "shasum": ""
             },
@@ -216,7 +216,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c0125896dbb151380ab47e96c621741e79623beb",
+                "url": "https://packagist.phpcomposer.com/files/paragonie/random_compat/c0125896dbb151380ab47e96c621741e79623beb.zip",
                 "reference": "c0125896dbb151380ab47e96c621741e79623beb",
                 "shasum": ""
             },

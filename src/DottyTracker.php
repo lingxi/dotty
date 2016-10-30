@@ -1,15 +1,14 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Lingxi\Dotty;
+
+use Lingxi\Context\Context;
 
 class DottyTracker
 {
     public function handle($request, $next)
     {
-        $dottyKeys = [
-            'outid',
-            'partner_id',
-        ];
+        $dottyKeys = config('dotty.keys', []);
 
         $dotties = [];
         foreach ($dottyKeys as $key) {
@@ -18,7 +17,8 @@ class DottyTracker
             }
         }
 
-        Context::set('dotties', $dotties);
+        $context = Context::create();
+        $context->set('dotties', $dotties);
 
         return $next($request);
     }
