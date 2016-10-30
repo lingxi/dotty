@@ -2,7 +2,6 @@
 
 namespace Lingxi\Dotty;
 
-use Lingxi\Dotty\UrlGenerator;
 use Illuminate\Support\ServiceProvider;
 
 class DottyServiceProvider extends ServiceProvider
