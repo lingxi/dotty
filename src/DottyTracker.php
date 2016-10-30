@@ -8,7 +8,7 @@ class DottyTracker
 {
     public function handle($request, $next)
     {
-        $dottyKeys = config('dotty.keys', []);
+        $dottyKeys = config('dotty.allowed', []);
 
         $dotties = [];
         foreach ($dottyKeys as $key) {
