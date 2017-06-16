@@ -8,7 +8,7 @@
         }
     },
     "require": {
-        "lingxi/context": "^0.0.1",
+        "lingxi/context": "0.0.*",
         "illuminate/support": "~5.0"
     }
 }
